@@ -166,3 +166,48 @@ opacity:.7;
 section{padding:80px 8%}
 nav{padding:15px}
 }
+#chatbot{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  width:280px;
+  background:#020617;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 0 20px rgba(0,0,0,.5);
+}
+
+#chatHeader{
+  background:#38bdf8;
+  color:black;
+  padding:10px;
+  font-weight:bold;
+  text-align:center;
+}
+
+#chatBody{
+  height:220px;
+  padding:10px;
+  overflow-y:auto;
+  font-size:14px;
+}
+
+#chatInput{
+  width:100%;
+  border:none;
+  padding:10px;
+  outline:none;
+}
+
+.msg-user{
+  text-align:right;
+  margin:6px 0;
+  color:#38bdf8;
+}
+
+.msg-bot{
+  text-align:left;
+  margin:6px 0;
+  color:white;
+}
+
