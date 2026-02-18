@@ -2,10 +2,20 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Chandan Mishra | Portfolio</title>
+
+<meta name="description" content="Chandan Mishra - CSE student skilled in Python, DBMS, DSA and Web Development">
+<meta name="keywords" content="Chandan Mishra, Python Developer, Portfolio, CSE Student">
+<meta name="author" content="Chandan Mishra">
+
 <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
+
+<div id="progress"></div>
 
 <nav>
   <h2>Chandan</h2>
@@ -15,59 +25,72 @@
     <li><a href="#projects">Projects</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
+  <button id="themeToggle">🌙</button>
 </nav>
 
 <section class="hero">
-  <h1>Hi, I'm Chandan Mishra 👋</h1>
-  <p>CSE Student | Python Developer | DBMS | DSA Learner</p>
+  <img src="assets/images/profile.jpg" class="profile-pic">
+
+  <h1>Chandan Mishra</h1>
+  <p id="typing"></p>
+
+  <p class="subtext">
+    Building efficient solutions with clean code and strong problem-solving skills.
+  </p>
+
+  <a href="resume.pdf" download class="btn">Download Resume</a>
 </section>
 
 <section id="about">
-  <h2>About Me</h2>
-  <p>
-  I am a Computer Science Engineering student passionate about programming, databases, and real-world problem solving.
-  I completed a 4-week Python internship and I am continuously improving my skills in DSA, DBMS, OOPS and Web Development.
-  </p>
+<h2>About Me</h2>
+<p>
+I am a Computer Science Engineering student passionate about software development and databases.
+I have completed a Python internship and continuously improve my skills in DSA, DBMS, OOPS and Web Development.
+</p>
 </section>
 
 <section id="skills">
-  <h2>Skills</h2>
-  <div class="grid">
-    <span>Python</span>
-    <span>DBMS & SQL</span>
-    <span>DSA</span>
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>JavaScript</span>
-    <span>NumPy</span>
-    <span>Pandas</span>
-  </div>
+<h2>Skills</h2>
+<div class="grid">
+<span>Python</span>
+<span>DBMS & SQL</span>
+<span>DSA</span>
+<span>HTML</span>
+<span>CSS</span>
+<span>JavaScript</span>
+<span>NumPy</span>
+<span>Pandas</span>
+</div>
 </section>
 
-<section id="projects" class="projects">
-<h2>Projects</h2>
-<ul>
-  <li>📊 Student Database System (SQL)</li>
-  <li>🐍 Python Internship Projects</li>
-  <li>🌐 Portfolio Website</li>
-  <li>🤖 Basic AI Chatbot</li>
-</ul>
-</section>
+<section id="projects" class="project-grid">
+<h2>Featured Projects</h2>
 
+<div class="cards">
+<div class="card">Student Database System</div>
+<div class="card">Python Internship Projects</div>
+<div class="card">Portfolio Website</div>
+<div class="card">AI Chatbot</div>
+</div>
+
+</section>
 
 <section id="contact">
-  <h2>Contact</h2>
-  <p>Email: chandanmishra9135@gmail.com</p>
-  <p>GitHub: github.com/chandan9135</p>
-  <p>LinkedIn: linkedin.com/in/chandan91</p>
+<h2>Contact Me</h2>
+
+<form class="contact-form">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Your Email" required>
+<textarea placeholder="Your Message"></textarea>
+<button class="btn">Send Message</button>
+</form>
+
 </section>
 
 <footer>
-  <p>© 2026 Chandan Mishra</p>
+© 2026 Chandan Mishra
 </footer>
 
 <script src="script.js"></script>
 </body>
 </html>
-
-
