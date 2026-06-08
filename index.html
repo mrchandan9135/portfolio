@@ -1,73 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chandan Kumar Mishra | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chandan Kumar Mishra | Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#111827;
+padding:15px 10%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:3rem;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+margin:15px 0;
+max-width:700px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#38bdf8;
+color:black;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+margin-top:10px;
+}
+
+section{
+padding:80px 10%;
+}
+
+h2{
+text-align:center;
+margin-bottom:30px;
+color:#38bdf8;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+border-radius:12px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.project{
+background:#1e293b;
+padding:20px;
+margin-bottom:20px;
+border-radius:12px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#111827;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:2rem;
+}
+
+nav{
+flex-direction:column;
+}
+
+nav ul{
+margin-top:10px;
+}
+}
+</style>
 </head>
+
 <body>
 
-<header>
-    <nav>
-        <h2>Chandan Kumar Mishra</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+<nav>
+<h2>Chandan</h2>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
 
 <section class="hero">
-    <h1>Computer Science Engineering Student</h1>
-    <p>Python Developer | AI Enthusiast | Problem Solver</p>
-    <a href="resume.pdf" class="btn">Download Resume</a>
+
+<h1>Hi, I'm <span>Chandan Kumar Mishra</span></h1>
+
+<p>
+Computer Science Engineering Student | Python Developer |
+AI Enthusiast | Problem Solver
+</p>
+
+<a href="resume.pdf" class="btn">Download Resume</a>
+
 </section>
 
 <section id="about">
-    <h2>About Me</h2>
-    <p>
-        I am a CSE student passionate about Python, Data Structures,
-        DBMS, Artificial Intelligence, and Software Development.
-    </p>
+
+<h2>About Me</h2>
+
+<p style="text-align:center;max-width:800px;margin:auto;">
+I am a Computer Science Engineering student with a strong interest in
+Python Programming, Artificial Intelligence, Database Management Systems,
+and Software Development. I completed a Python Programming Internship and
+am continuously building projects to improve my technical skills.
+</p>
+
 </section>
 
 <section id="skills">
-    <h2>Skills</h2>
-    <div class="cards">
-        <div class="card">Python</div>
-        <div class="card">C</div>
-        <div class="card">DBMS</div>
-        <div class="card">OOP</div>
-        <div class="card">DSA</div>
-        <div class="card">GitHub</div>
-    </div>
+
+<h2>Skills</h2>
+
+<div class="cards">
+
+<div class="card">Python</div>
+
+<div class="card">C Programming</div>
+
+<div class="card">DBMS</div>
+
+<div class="card">Data Structures</div>
+
+<div class="card">OOP</div>
+
+<div class="card">Software Engineering</div>
+
+<div class="card">NumPy</div>
+
+<div class="card">Pandas</div>
+
+</div>
+
 </section>
 
 <section id="projects">
-    <h2>Projects</h2>
 
-    <div class="project">
-        <h3>Student Management System</h3>
-        <p>Python-based student record management application.</p>
-    </div>
+<h2>Projects</h2>
 
-    <div class="project">
-        <h3>Expense Tracker</h3>
-        <p>Track daily expenses and generate reports.</p>
-    </div>
+<div class="project">
+<h3>Student Management System</h3>
+<p>Python application for managing student records and information.</p>
+</div>
+
+<div class="project">
+<h3>Expense Tracker</h3>
+<p>Track daily expenses and generate reports using Python.</p>
+</div>
+
+<div class="project">
+<h3>Portfolio Website</h3>
+<p>Personal responsive portfolio website built using HTML and CSS.</p>
+</div>
+
+</section>
+
+<section>
+
+<h2>Education</h2>
+
+<div class="project">
+<h3>B.Tech in Computer Science Engineering</h3>
+<p>LNJPIT, Chapra (2024–2027)</p>
+</div>
+
+</section>
+
+<section>
+
+<h2>Internship</h2>
+
+<div class="project">
+<h3>Python Programming Internship</h3>
+<p>
+Completed training in Python, NumPy, Pandas,
+Data Analysis and Machine Learning Fundamentals.
+</p>
+</div>
 
 </section>
 
 <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: chandanmishra9135@gmail.com</p>
-    <p>GitHub: github.com/mrchandan9135</p>
-    <p>LinkedIn: www.linkedin.com/in/chandan91</p>
+
+<h2>Contact</h2>
+
+<p>Email: chandanmishra9135@gmail.com</p>
+
+<p>GitHub: github.com/mrchandan9135</p>
+
+<p>LinkedIn: www.linkedin.com/in/chandan91</p>
+
 </section>
 
-<script src="script.js"></script>
+<footer>
+
+<p>© 2026 Chandan Kumar Mishra</p>
+
+</footer>
+
 </body>
 </html>
