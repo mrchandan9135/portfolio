@@ -1,86 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Chandan Mishra | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandan Kumar Mishra | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div id="progress"></div>
-
-<nav>
-  <h2>Chandan</h2>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <button id="themeToggle">🌙</button>
-</nav>
+<header>
+    <nav>
+        <h2>Chandan Kumar Mishra</h2>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
 <section class="hero">
-  <img src="assets/images/profile.jpg" class="profile-pic">
-  <h1>Chandan Mishra</h1>
-  <p id="typing"></p>
-  <p class="subtext">Building clean & efficient software solutions.</p>
-  <a href="resume.pdf" download class="btn">Download Resume</a>
+    <h1>Computer Science Engineering Student</h1>
+    <p>Python Developer | AI Enthusiast | Problem Solver</p>
+    <a href="resume.pdf" class="btn">Download Resume</a>
 </section>
 
 <section id="about">
-<h2>About Me</h2>
-<p>
-Computer Science Engineering student skilled in Python, DBMS, DSA and modern web development.
-Completed Python internship and building real-world projects.
-</p>
+    <h2>About Me</h2>
+    <p>
+        I am a CSE student passionate about Python, Data Structures,
+        DBMS, Artificial Intelligence, and Software Development.
+    </p>
 </section>
 
 <section id="skills">
-<h2>Skills</h2>
-<div class="grid">
-<span>Python</span>
-<span>DBMS</span>
-<span>DSA</span>
-<span>HTML</span>
-<span>CSS</span>
-<span>JavaScript</span>
-<span>NumPy</span>
-<span>Pandas</span>
-</div>
+    <h2>Skills</h2>
+    <div class="cards">
+        <div class="card">Python</div>
+        <div class="card">C</div>
+        <div class="card">DBMS</div>
+        <div class="card">OOP</div>
+        <div class="card">DSA</div>
+        <div class="card">GitHub</div>
+    </div>
 </section>
 
-<section id="projects" class="project-grid">
-<h2>Projects</h2>
-<div class="cards">
-<div class="card">Student Database System</div>
-<div class="card">Python Internship Projects</div>
-<div class="card">Portfolio Website</div>
-<div class="card">AI Chatbot</div>
-</div>
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Student Management System</h3>
+        <p>Python-based student record management application.</p>
+    </div>
+
+    <div class="project">
+        <h3>Expense Tracker</h3>
+        <p>Track daily expenses and generate reports.</p>
+    </div>
+
 </section>
 
 <section id="contact">
-<h2>Contact</h2>
-
-<form class="contact-form">
-<input type="text" placeholder="Your Name" required>
-<input type="email" placeholder="Your Email" required>
-<textarea placeholder="Message" required></textarea>
-<button class="btn">Send</button>
-</form>
-
+    <h2>Contact</h2>
+    <p>Email: yourmail@gmail.com</p>
+    <p>GitHub: github.com/yourusername</p>
+    <p>LinkedIn: linkedin.com/in/yourprofile</p>
 </section>
-
-<footer>© 2026 Chandan Mishra</footer>
-
-<!-- Chatbot -->
-<div id="chatbot">
-  <div id="chatHeader">🤖 Ask about Chandan</div>
-  <div id="chatBody"></div>
-  <input id="chatInput" placeholder="Type and press Enter..." />
-</div>
 
 <script src="script.js"></script>
 </body>
